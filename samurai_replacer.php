@@ -29,7 +29,7 @@ function basic_cuss_replace ( $cuss ) {
 
 	$banned_words_uppercase = array_map( 'ucfirst' , $user_banned_array );
 
-  $banned_words_lowercase = array_map( 'strtolower' , $user_banned_array );
+	$banned_words_lowercase = array_map( 'strtolower' , $user_banned_array );
 
 	$banned_words = array_merge( $banned_words_uppercase, $banned_words_lowercase );
 
